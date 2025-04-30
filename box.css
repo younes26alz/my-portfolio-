@@ -1,0 +1,55 @@
+#a1{
+    width: 80%;
+    height: 670px;
+    background:darkgray;
+    margin-top: 2%;
+    margin-left: 10%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#a2{
+    width: 90%;
+    height: 560px;
+    background: blue;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+#a3{
+    width: 90%;
+    height: 435px;
+    background:rgba(239, 239, 239, 0.781);
+    margin-top: 3%;
+    margin-left: 5%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#a4{
+    width: 90%;
+    height: 320px;
+    background: white;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+
+p{  
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+#p1{
+    margin-top:0.5%;
+}
+
+#p4{
+    margin-top:15%;
+}
+
+div{
+    border: black solid 3px;
+}

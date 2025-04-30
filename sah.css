@@ -1,0 +1,55 @@
+#continer{
+    width: 90%;
+    border: solid black 3px;
+    border-radius:15px ;
+    margin: 4%;
+    margin-bottom: 0%;
+    box-shadow: darkgray 3px 3px 8px 8px;
+    
+}
+
+form{
+    margin: 1.5%;
+}
+
+h1{
+    margin-left: 40%;
+}
+
+h3,h4{
+    display: inline-block;
+}
+
+h5{
+    margin-left:80% ;
+    position: relative;
+    bottom: 10%;
+}
+
+button{
+    width: 10%;
+    color: white;
+    background: darkcyan;
+    border: solid black 3px;
+    border-radius:15px ;
+    margin: 2%;
+    margin-left:5%;
+}
+
+button:hover{
+    background: red;
+}
+
+body{
+    height: 90vh;
+}
+
+#jawab1,#jawab2,#jawab3{
+    display: inline;
+    color: green;
+}
+
+#msg{
+    position: relative;
+    bottom:15%;
+}

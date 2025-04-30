@@ -1,0 +1,65 @@
+#a0{
+    width: 19.7%;
+    height: 410px;
+    background: cyan;
+    border: solid black 4px;
+    border-radius: 8px;
+    position: relative;
+    top: 100px;
+    left: 600px;
+}
+
+#button{
+width: 60px;
+height: 60px;
+border-radius: 40px;
+font-size: large;
+border:black  solid 3px;
+margin: 5px;
+}
+
+input{
+    width: 98%;
+    height: 50px;
+    border: none ;
+    font-size: 30px;
+    text-align: end;
+    background: cyan;
+
+}
+
+#ha{
+    display:grid;
+}
+
+#bu{
+    width: 60px;
+    height: 270px;
+    border-radius: 40px;
+    font-size: large;
+    border:black  solid 2px;
+    margin: 5px;
+    position: relative;
+    bottom:280px;
+    left: 220px;
+}
+
+.button{
+    background:darkorange; 
+}
+
+.button:hover{
+    background: white;
+}
+
+.button:active{
+    background: red;
+}
+ 
+.bu:active{
+    background: red;
+}
+
+.bu:hover{
+    background: white;
+}

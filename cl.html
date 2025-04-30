@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="cl.css">
+    <title>calculator</title>
+</head>
+<body>
+     
+    <div id="a0">
+        <input placeholder="0" id="display">
+        <div>
+            <button id="button" class="button" onclick="appendToDisplay('+')" >+</button>
+            <button id="button" class="button" onclick="appendToDisplay('-')">-</button>
+            <button id="button" class="button" onclick="appendToDisplay('*')">*</button>
+            <button id="button" class="button" onclick="appendToDisplay('/')">/</button>
+        </div>
+        <div>
+            <div id="ha">
+              <div>
+                <button id="button" class="bu" onclick="appendToDisplay('9')">9</button>
+                <button id="button" class="bu" onclick="appendToDisplay('8')">8</button>
+                <button id="button" class="bu" onclick="appendToDisplay('7')">7</button>
+              </div>
+              <div>
+                <button id="button" class="bu" onclick="appendToDisplay('6')">6</button>
+                <button id="button" class="bu" onclick="appendToDisplay('5')">5</button>
+                <button id="button" class="bu" onclick="appendToDisplay('4')">4</button>
+              </div>
+              <div>
+                <button id="button" class="bu" onclick="appendToDisplay('3')">3</button>
+                <button id="button" class="bu" onclick="appendToDisplay('2')">2</button>
+                <button id="button" class="bu" onclick="appendToDisplay('1')">1</button>
+              </div>
+              <div>
+                <button id="button" class="bu" onclick="appendToDisplay('0')">0</button>
+                <button id="button" class="bu" onclick="appendToDisplay('.')">.</button>
+                <button id="button" class="bu" onclick="clearDisplay()">AC</button>
+              </div>
+            </div>
+            <div>
+                <button id="bu" class="button" onclick="calculater()" >=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="cl.js"></script>
+
+</body>
+</html>
